@@ -1,0 +1,53 @@
+{
+  "name": "datetimepicker-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 8082",
+    "build-storybook": "build-storybook -o ./docs/story-build",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "copy:favicons": "rm -rf public/favicon.ico && cp -r node_modules/@aasaam/information/logo/icons/favicon.ico public/"
+  },
+  "dependencies": {
+    "aasaam-vuetify-datetime": "0.0.1",
+    "core-js": "^3.6",
+    "vue": "^2.6",
+    "vue-code-highlight": "^0.7",
+    "vue-i18n": "^8.17",
+    "vue-router": "^3.2",
+    "vuetify": "^2.4"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.9",
+    "@storybook/addon-a11y": "^6.1.15",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-knobs": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addon-storysource": "^6.1.15",
+    "@storybook/addon-viewport": "^6.1.15",
+    "@storybook/addons": "^6.1.15",
+    "@storybook/vue": "^6.1.15",
+    "@aasaam/information": "^0",
+    "@vue/cli-plugin-babel": "~4.5",
+    "@vue/cli-plugin-eslint": "~4.5",
+    "@vue/cli-plugin-router": "~4.5",
+    "@vue/cli-service": "~4.5",
+    "@vue/eslint-config-prettier": "^6.0",
+    "babel-eslint": "^10.1",
+    "eslint": "^6.7",
+    "eslint-plugin-prettier": "^3.1",
+    "eslint-plugin-vue": "^6.2",
+    "node-sass": "^4.12",
+    "prettier": "^1.19",
+    "sass": "^1.32",
+    "sass-loader": "^10.0",
+    "vue-cli-plugin-i18n": "~1.0",
+    "vue-cli-plugin-vuetify": "~2.1",
+    "vue-template-compiler": "^2.6",
+    "vuetify-loader": "^1.7"
+  }
+}
