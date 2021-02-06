@@ -1,6 +1,6 @@
 module.exports = {
   outputDir: './docs/dist',
-  publicPath: '/datetime-docs/docs/dist/',
+  publicPath: '/datetime-docs/dist/',
   pluginOptions: {
     i18n: {
       locale: 'en',
