@@ -37,7 +37,7 @@
             </p>
 
             <Highlighter
-              title="Vue Cli :"
+              title="Locally :"
               code="<script>
     import DateTimePicker from 'aasaam-vuetify-datetime/src/components/DateTimePicker.vue';
     import RangeDateTimePicker from 'aasaam-vuetify-datetime/src/components/RangeDateTimePicker';

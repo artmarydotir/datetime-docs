@@ -27,10 +27,10 @@
                 <span class="title font-weight-bold">I18n</span>
               </v-card-title>
 
-              <v-card-text>
+              <!-- <v-card-text>
                 "Turns out semicolon-less style is easier and safer in TS
                 because most gotcha edge cases are type invalid as well."
-              </v-card-text>
+              </v-card-text> -->
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
@@ -42,10 +42,10 @@
                 <span class="title font-weight-bold">Configurable</span>
               </v-card-title>
 
-              <v-card-text>
+              <!-- <v-card-text>
                 "Turns out semicolon-less style is easier and safer in TS
                 because most gotcha edge cases are type invalid as well."
-              </v-card-text>
+              </v-card-text> -->
             </v-card>
           </v-col>
           <v-col cols="12" md="4">
@@ -57,12 +57,12 @@
                 <span class="title font-weight-bold">Simple</span>
               </v-card-title>
 
-              <v-card-text
+              <!-- <v-card-text
                 class="justify-center align-center mx-auto text-center"
               >
                 Turns out semicolon-less style is easier and safer in TS because
                 most gotcha edge cases are type invalid as well.
-              </v-card-text>
+              </v-card-text> -->
             </v-card>
           </v-col>
         </v-row>
